@@ -1,0 +1,224 @@
+/* Navbar.css */
+.navbar {
+  position: relative;
+  width: 1440px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 1000;
+  transition: background-color 0.4s ease, height 0.4s ease;
+}
+
+.navbar-open {
+  background-color: rgba(255, 255, 255);
+  height: 100px;
+}
+
+.image5 {
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  top: 30px;
+  left: 150px;
+  background-color: black;
+  border-radius: 4px;
+  padding: 5px;
+  transition: background-color 0.4s ease;
+}
+
+.navbar-open .image5 {
+  background-color: white;
+  width: 163px;
+}
+
+.frame222 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 170px;
+  height: 20px;
+  top: 80px;
+  left: 967px;
+  gap: 30px;
+
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: visibility 0s linear 0.3s, opacity 0.3s ease, transform 0.3s ease;
+}
+
+.frame222-open {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(-39px);
+  transition-delay: 0.05s;
+}
+
+.social-icon {
+  cursor: pointer;
+}
+
+.social-icon svg {
+  pointer-events: none;
+}
+
+.navbar-open .social-icon {
+  color: #000;
+}
+
+.navbar-open .social-icon:hover {
+  color: #333;
+}
+
+.frame221 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 311px;
+  height: 22px;
+  top: 79px;
+  left: 565px;
+  gap: 24px;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.3s ease;
+}
+
+.frame221-open {
+  opacity: 1;
+  transform: translateY(-35px);
+  transition-delay: 0.1s;
+}
+
+.text-products {
+  width: 67px;
+  height: 22px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.text-build-at-soaron {
+  width: 115px;
+  height: 22px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.text-contact-us {
+  width: 81px;
+  height: 22px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.frame219 {
+  position: absolute;
+  width: 110px; 
+  height: 38px;
+  top: 31px;
+  left: 1180px; 
+}
+
+.frame220 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 108.5px;
+  height: 22px;
+  top: 8px;
+  left: 0;
+  gap: 10px;
+}
+
+.text-menu {
+  width: 43px;
+  height: 22px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  transition: color 0.4s ease;
+  display: flex;
+  align-items: center;
+}
+
+.frame218 {
+  position: relative;
+  width: 30px;
+  height: 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line98 {
+  position: absolute;
+  width: 30px;
+  height: 0px;
+  top: 35%;
+  transform: translateY(50%);
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+
+.line98-open {
+  transform: translateY(50%) rotate(45deg);
+  border-color: #000000;
+  top: 50%;
+}
+
+.line97 {
+  position: absolute;
+  width: 30px;
+  height: 0px;
+  top: 65%;
+  transform: translateY(50%);
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
+  transition: all 0.4s ease;
+  transform-origin: center;
+}
+
+.line97-open {
+  transform: translateY(50%) rotate(-45deg);
+  border-color: #000000;
+  top: 50%;
+}
+
+.navbar-open .text-products {
+  cursor: pointer;
+}
+
+.navbar-open .text-build-at-soaron {
+  cursor: pointer;
+}
+
+.navbar-open .text-contact-us {
+  cursor: pointer;
+}
+
+.navbar-open .text-menu {
+  cursor: pointer;
+}
+

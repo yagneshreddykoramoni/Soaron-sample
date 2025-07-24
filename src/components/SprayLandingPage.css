@@ -1,0 +1,114 @@
+/* SprayLandingPage.css */
+.spray-container {
+  width: 1440px;
+  height: 2391px;
+  background-color: #000000;
+  position: relative;
+  overflow: hidden;
+}
+
+.rectangle31 {
+  position: absolute;
+  width: 1438px;
+  height: 600px;
+  top: 1622px;
+  left: 2px;
+  background-color: #000000;
+  opacity: 0.5;
+}
+
+.image25 {
+  position: absolute;
+  width: 1440px;
+  height: 617px;
+  top: 1610px;
+  left: 0px;
+}
+
+.vector30 {
+  position: absolute;
+  width: 1110.97px;
+  height: 1537.8px;
+  top: 417px;
+  left: -241px;
+  border: 10px solid;
+  border-image-source: linear-gradient(180deg, #F5F5F5 0%, #716E73 100%);
+  border-image-slice: 1;
+  transform: rotate(-45deg);
+  filter: blur(70px);
+}
+
+.vector30-2 {
+  position: absolute;
+  width: 1110.97px;
+  height: 1537.8px;
+  top: 940px;
+  left: -225px;
+  transform: rotate(19.34deg);
+  filter: blur(70px);
+}
+
+.vector {
+  position: absolute;
+  width: 1072.61px;
+  height: 908.38px;
+  top: 2759px;
+  left: 421px;
+  background-color: #2B2B2B;
+  transform: rotate(-135.55deg);
+  filter: blur(300px);
+}
+
+.vector-2 {
+  position: absolute;
+  width: 1072.61px;
+  height: 908.38px;
+  top: 2300px;
+  left: -100px;
+  background-color: #2B2B2B;
+  transform: rotate(-28.46deg);
+  filter: blur(300px);
+}
+
+.vector-3 {
+  position: absolute;
+  width: 1072.61px;
+  height: 908.38px;
+  top: 1579px;
+  left: 823px;
+  background-color: #2B2B2B;
+  transform: rotate(89.02deg);
+  filter: blur(300px);
+}
+
+.vector-4 {
+  position: absolute;
+  width: 1072.61px;
+  height: 908.38px;
+  top: 1125px;
+  left: -489px;
+  background-color: #2B2B2B;
+  filter: blur(300px);
+}
+
+.vector-5 {
+  position: absolute;
+  width: 1072.61px;
+  height: 908.38px;
+  top: 5182.99px;
+  left: 448.44px;
+  background-color: #2B2B2B;
+  transform: rotate(-135.55deg);
+  filter: blur(300px);
+}
+
+.vector-6 {
+  position: absolute;
+  width: 1072.61px;
+  height: 908.38px;
+  top: 3737px;
+  left: -343px;
+  background-color: #2B2B2B;
+  transform: rotate(-28.46deg);
+  filter: blur(300px);
+}

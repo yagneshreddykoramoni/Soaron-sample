@@ -1,0 +1,169 @@
+/* Roller1.css */
+.roller {
+  width: 1440px;
+  height: 750px;
+  position: relative;
+  background: linear-gradient(180deg, #D7D7D7 0%, #E1E1E1 100%);
+  overflow: hidden;
+}
+
+.david-martin-image {
+  width: 1440px;
+  height: 750px;
+  position: absolute;
+}
+
+.overlay {
+  width: 1440px;
+  height: 750px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.vector39 {
+  width: 22px;
+  height: 155px;
+  position: absolute;
+  top: 595px;
+  left: 550px;
+  filter: blur(1px);
+  z-index: 3;
+}
+
+.frame242 {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  height: 47px;
+  position: absolute;
+  top: 633px;
+  left: 595px;
+  gap: 24px;
+  z-index: 4;
+}
+
+.frame240 {
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  height: 47px;
+  border-radius: 4px;
+  border: 2px solid #FFFFFF;
+  padding: 10px;
+  padding-top: 20px;
+  gap: 10px;
+  background-color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame240:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.text-trail {
+  width: 45px;
+  height: 27px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 680;
+  font-style: bold;
+  font-size: 19px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #000000;
+}
+
+.frame238 {
+  width: 661px;
+  height: 159px;
+  position: absolute;
+  top: 50px;
+  left: 390px;
+}
+
+.colorown-logo {
+  width: 602px;
+  height: 86px;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.text-revolutionizing {
+  width: 517px;
+  height: 48px;
+  position: absolute;
+  top: 110px;
+  left: 72px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-style: small;
+  font-size: 38px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+.drone {
+  width: 640px;
+  height: 620px;
+  position: absolute;
+  top: 0px;
+  left: 418px;
+  z-index: 3;
+}
+
+.view-image {
+  width: 600px;
+  height: 470px;
+  position: absolute;
+  top: 166px;
+  left: 60px;
+}
+
+.rectangle30 {
+  width: 11.52px;
+  height: 4.03px;
+  position: absolute;
+  top: 375px;
+  left: 119px;
+  border-radius: 28800px;
+  background-color: #E5FFE1;
+  box-shadow: 0px 0px 25.82px 2.16px #CCFF00;
+}
+
+.rectangle29 {
+  width: 9.6px;
+  height: 3.36px;
+  position: absolute;
+  top: 367px;
+  left: 556px;
+  border-radius: 24000px;
+  background-color: #E5FFE1;
+  box-shadow: 0px 0px 21.52px 1.8px rgba(204, 255, 0, 0.8);
+}
+
+.rectangle28 {
+  width: 16px;
+  height: 5.6px;
+  position: absolute;
+  top: 267px;
+  left: 490px;
+  border-radius: 40000px;
+  background-color: #FFE1E1;
+  transform: rotate(-18deg);
+  box-shadow: 0px 0px 19.2px 8px rgba(255, 0, 0, 0.8);
+}
+
+.vector37 {
+  width: 5px;
+  height: 155px;
+  position: absolute;
+  top: 595.57px;
+  left: 388px;
+}
