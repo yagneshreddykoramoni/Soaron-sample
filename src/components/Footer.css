@@ -133,7 +133,7 @@
 @media (max-width: 768px) {
   .footer {
     padding: 40px 20px 30px;
-    top: 1870px;
+    top: 1827px;
     text-align: center;
   }
   
@@ -154,6 +154,14 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
+  }
+
+  .footer-legal-link {
+    font-size: 12px;
+  }
+
+  .footer-copyright{
+    font-size: 12px;
   }
 
   .footer-separator {
