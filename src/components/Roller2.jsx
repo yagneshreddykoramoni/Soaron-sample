@@ -21,8 +21,7 @@ const Roller2 = () => {
         <span className="text-designed-safety">Designed with safety in mind, our system reduces risks and enhances operator protection.</span>
       </div>
       <div className="ellipse"></div>
-      <div className="ellipse2"></div>
-      <img src="/assets/0f91d2bb-5a92-400b-84a5-e5173529d1b2_1.png" alt="Drone spray painting demonstration" className="image-0f91d2bb" />
+      <div className="ellipse2"><img src="/assets/0f91d2bb-5a92-400b-84a5-e5173529d1b2_1.png" alt="Drone spray painting demonstration" className="image-0f91d2bb" /></div>
     </div>
   );
 };

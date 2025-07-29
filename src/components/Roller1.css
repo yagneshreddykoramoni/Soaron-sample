@@ -1,23 +1,49 @@
 /* Roller1.css */
 .roller {
-  width: 1440px;
+  width: 100%;
   height: 750px;
   position: relative;
   background: linear-gradient(180deg, #D7D7D7 0%, #E1E1E1 100%);
   overflow: hidden;
 }
 
+@media screen and (max-width: 768px) {
+  .roller {
+    width: 100%;
+    height: 359px;
+  }
+}
+
 .david-martin-image {
-  width: 1440px;
+  width: 100%;
   height: 750px;
   position: absolute;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .david-martin-image {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
 }
 
 .overlay {
-  width: 1440px;
+  width: 100%;
   height: 750px;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+  .overlay {
+    width: 100%;
+    height: 359px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
 }
 
 .vector39 {
@@ -37,9 +63,18 @@
   height: 47px;
   position: absolute;
   top: 633px;
-  left: 595px;
+  left: 50%;
+  transform: translateX(-50%);
   gap: 24px;
   z-index: 4;
+}
+
+@media screen and (max-width: 768px) {
+  .frame242 {
+    top: 280px;
+    width: 80px;
+    height: 37px;
+  }
 }
 
 .frame240 {
@@ -65,6 +100,15 @@
   transition: opacity 0.2s ease;
 }
 
+@media screen and (max-width: 768px) {
+  .frame240{
+    width: 80px;
+    height: 37px;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+  }
+}
+
 .text-trail {
   width: 45px;
   height: 27px;
@@ -78,12 +122,32 @@
   color: #000000;
 }
 
+@media screen and (max-width: 768px) {
+  .text-trail{
+    width: 32px;
+    height: 21px;
+    font-size: 14px;
+  }
+}
+
 .frame238 {
   width: 661px;
   height: 159px;
   position: absolute;
   top: 50px;
-  left: 390px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 768px) {
+  .frame238 {
+    width: 90%;
+    height: auto;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
 }
 
 .colorown-logo {
@@ -92,6 +156,16 @@
   position: absolute;
   top: 10px;
   left: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .colorown-logo {
+    display: block;
+    position: static;
+    width: 231px;
+    height: 33px;
+    margin: 0 auto;
+  }
 }
 
 .text-revolutionizing {
@@ -109,13 +183,35 @@
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 768px) {
+  .text-revolutionizing {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: static;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}
+
 .drone {
   width: 640px;
   height: 620px;
   position: absolute;
   top: 0px;
-  left: 418px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 3;
+}
+
+@media screen and (max-width: 768px) {
+  .drone {
+    width: 90%;
+    height: auto;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 .view-image {
@@ -124,6 +220,17 @@
   position: absolute;
   top: 166px;
   left: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .view-image {
+    width: 237.4px;
+    height: 175px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%) rotate(2.69deg);
+    z-index: 4;
+  }
 }
 
 .rectangle30 {

@@ -1,6 +1,6 @@
 /* SprayLandingPage.css */
 .spray-container {
-  width: 1440px;
+  width: 100%;
   height: 2391px;
   background-color: #000000;
   position: relative;
@@ -19,7 +19,7 @@
 
 .image25 {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 617px;
   top: 1610px;
   left: 0px;
@@ -111,4 +111,80 @@
   background-color: #2B2B2B;
   transform: rotate(-28.46deg);
   filter: blur(300px);
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  .spray-container {
+    width: 100%;
+    height: 2463px;
+    background-color: #000000;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .image25 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 1670px;
+    left: 0;
+    object-fit: cover;
+  }
+
+  .rectangle31 {
+    width: 100%;
+    height: 400px;
+    top: 1700px;
+    left: 0;
+  }
+
+  .vector30, .vector30-2 {
+    width: 500px;
+    height: 700px;
+    left: -100px;
+    filter: blur(50px);
+  }
+
+  .vector30 {
+    top: 300px;
+  }
+
+  .vector30-2 {
+    top: 700px;
+  }
+
+  .vector, .vector-2, .vector-3, .vector-4, .vector-5, .vector-6 {
+    width: 500px;
+    height: 400px;
+    filter: blur(150px);
+  }
+
+  .vector {
+    top: 2000px;
+    left: -100px;
+  }
+
+  .vector-2 {
+    top: 1800px;
+    left: -200px;
+  }
+
+  .vector-3 {
+    top: 1400px;
+    left: 100px;
+  }
+
+  .vector-4 {
+    top: 900px;
+    left: -250px;
+  }
+
+  .vector-5 {
+    display: none; /* Hiding some decorative elements on mobile for clarity */
+  }
+
+  .vector-6 {
+    display: none; /* Hiding some decorative elements on mobile for clarity */
+  }
 }
