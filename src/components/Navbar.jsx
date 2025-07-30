@@ -42,9 +42,9 @@ const Navbar = () => {
           </a>
       </div>
       <div className={`frame221 ${isOpen ? 'frame221-open' : ''}`}>
-        <div className="text-products">Products</div>
-        <div className="text-build-at-soaron">Build at Soaron</div>
-        <div className="text-contact-us">Contact Us</div>
+        <div className="text-products" onClick={() => window.location.href = '#coming-soon'}>Products</div>
+        <div className="text-build-at-soaron" onClick={() => window.location.href = '#coming-soon'}>Build at Soaron</div>
+        <div className="text-contact-us" onClick={() => window.location.href = '#coming-soon'}>Contact Us</div>
       </div>
       <div className="frame219">
         <div className="frame220">

@@ -11,7 +11,7 @@ const SprayLandingPage = () => {
       <Navbar />
       <Roller1 />
       <Roller2 />
-      <img src="/assets/image 25.png" alt="image25" className="image25" />
+      <video src="/assets/Colorown Spray Testing Video.mp4" alt="image25" className="image25" autoPlay muted loop />
       <div className="rectangle-31"></div>
       <div className="vector30"></div>
       <div className="vector30-2"></div>

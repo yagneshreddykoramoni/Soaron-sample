@@ -20,7 +20,7 @@
 .image25 {
   position: absolute;
   width: 100%;
-  height: 617px;
+  height: 621px;
   top: 1610px;
   left: 0px;
 }
@@ -117,7 +117,7 @@
 @media screen and (max-width: 768px) {
   .spray-container {
     width: 100%;
-    height: 2260px;
+    height: 2250px;
     background-color: #000000;
     position: relative;
     overflow: hidden;
@@ -140,24 +140,31 @@
   }
 
   .vector30, .vector30-2 {
-    width: 500px;
-    height: 700px;
-    left: -100px;
-    filter: blur(50px);
+    width: 1110.97px;
+    height: 1537.8px;
+    border: 10px solid;
+    border-image-slice: 1;
+    filter: blur(70px);
   }
 
   .vector30 {
-    top: 300px;
+    top: -250px;
+    left: -600px;
+    transform: rotate(-45deg);
+    border-image-source: linear-gradient(180deg, #F5F5F5 0%, #716E73 100%);
   }
 
   .vector30-2 {
     top: 700px;
+    left: -225px;
+    transform: rotate(19.34deg);
+    border-image-source: linear-gradient(180deg, #F5F5F5 0%, #716E73 100%);
   }
 
   .vector, .vector-2, .vector-3, .vector-4, .vector-5, .vector-6 {
     width: 500px;
     height: 400px;
-    filter: blur(150px);
+    filter: blur(300px);
   }
 
   .vector {
@@ -171,20 +178,23 @@
   }
 
   .vector-3 {
-    top: 1400px;
-    left: 100px;
+    width: 572.61px;
+    height: 908.38px;
+    bottom: 200px;
+    left: 550px;
+    transform: none;
+    z-index: 0;
   }
 
   .vector-4 {
-    top: 900px;
-    left: -250px;
+    display: none;
   }
 
   .vector-5 {
-    display: none; /* Hiding some decorative elements on mobile for clarity */
+    display: none;
   }
 
   .vector-6 {
-    display: none; /* Hiding some decorative elements on mobile for clarity */
+    display: none;
   }
 }

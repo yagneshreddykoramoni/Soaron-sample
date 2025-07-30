@@ -20,7 +20,7 @@ const Roller1 = () => {
       </div>
       <div className="frame242">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLScFJ78o07R7TrVXeFEvOYpgQvUCdUqa6Q8wQHbZGPKQPo0b0w/viewform" target="_blank" rel="noopener noreferrer" className="frame240">
-          <span className="text-trail">Trial</span>
+          <span className="text-trail" >Trial</span>
         </a>
       </div>
     </div>

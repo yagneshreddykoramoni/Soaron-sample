@@ -250,11 +250,13 @@
   .text-safer, .text-precise, .text-advanced, .text-faster {
     width: 100%;
     font-size: 24px;
+    color: #FFFFFF;
   }
 
   .text-designed-safety, .text-achieve-accuracy, .text-harness-technology, .text-speed-up {
     width: 100%;
     font-size: 14px;
+    color: #FFFFFF;
   }
 
   .frame183 { top: 340px; }

@@ -40,7 +40,7 @@
   align-items: center;
 }
 
-.social-icon {
+.social-iconn {
   color: #ffffff;
   text-decoration: none;
   transition: color 0.3s ease;
@@ -50,16 +50,16 @@
   cursor: pointer; 
 }
 
-.social-icon:hover {
+.social-iconn:hover {
   color: #cccccc;
 }
 
-.social-icon svg {
+.social-iconn svg {
   width: 20px;
   height: 20px;
 }
 
-.social-icon-linkedin {
+.social-iconn-linkedin {
   color: #000000;
   background-color: #ffffff;
   border-radius: 50%;
@@ -68,12 +68,12 @@
   cursor: pointer;
 }
 
-.social-icon-linkedin svg {
+.social-iconn-linkedin svg {
   width: 24px;
   height: 24px;
 }
 
-.social-icon-insta{
+.social-iconn-insta{
   color: #000000;
   background-color: #ffffff;
   border-radius: 50%;
@@ -82,7 +82,7 @@
   cursor: pointer;
 }
 
-.social-icon-insta svg {
+.social-iconn-insta svg {
   width: 23.5px;
   height: 23.5px;
 }
@@ -132,7 +132,7 @@
 
 @media (max-width: 768px) {
   .footer {
-    padding: 40px 20px 30px;
+    padding: 40px 20px 60px;
     top: 1827px;
     text-align: center;
   }
@@ -141,7 +141,7 @@
   .footer-bottom {
     flex-direction: column;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
   }
   
   .footer-nav {
@@ -149,15 +149,27 @@
     align-items: center;
     gap: 15px;
   }
+
+  .social-icons {
+    margin: 15px 0;
+  }
   
   .footer-legal {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 35px;
+  }
+
+  .footer-divider{
+    display: none;
   }
 
   .footer-legal-link {
     font-size: 12px;
+  }
+
+  .nomobile {
+    display: none;
   }
 
   .footer-copyright{
