@@ -9,20 +9,21 @@
 
 .rectangle31 {
   position: absolute;
-  width: 1438px;
+  width: 100vw;
   height: 600px;
   top: 1622px;
-  left: 2px;
+  left: 0px;
   background-color: #000000;
   opacity: 0.5;
 }
 
 .image25 {
   position: absolute;
-  width: 100%;
+  width: 100vw;
   height: 621px;
   top: 1610px;
   left: 0px;
+  object-fit: cover;
 }
 
 .vector30 {

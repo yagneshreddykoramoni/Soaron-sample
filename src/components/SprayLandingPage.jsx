@@ -1,11 +1,29 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './SprayLandingPage.css';
 import Navbar from './Navbar';
 import Roller1 from './Roller1';
-import Roller2 from './Roller2'; 
+import Roller2 from './Roller2';
 import Footer from './Footer';
 
 const SprayLandingPage = () => {
+  useEffect(() => {
+    // Disable browser's scroll restoration
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+    
+    // Force scroll to top immediately and after a short delay
+    window.scrollTo(0, 0);
+    
+    // Additional scroll to top after component fully renders
+    const timer = setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 100);
+    
+    // Cleanup timer
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className="spray-container">
       <Navbar />

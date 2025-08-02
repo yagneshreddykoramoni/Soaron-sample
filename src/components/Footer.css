@@ -188,3 +188,35 @@
   transition: color 0.3s ease;
 }
 }
+
+/* Tablet View */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .footer {
+    padding: 40px 80px 30px 80px;
+    top: 2230px;
+  }
+
+  .footer-nav {
+    gap: 30px;
+  }
+
+  .footer-link {
+    font-size: 14px;
+  }
+
+  .social-icons {
+    gap: 15px;
+  }
+
+  .footer-legal {
+    gap: 12px;
+  }
+
+  .footer-legal-link {
+    font-size: 14px;
+  }
+
+  .footer-copyright {
+    font-size: 12px;
+  }
+}
